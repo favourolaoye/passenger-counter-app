@@ -1,0 +1,74 @@
+.App{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  justify-self: center;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.number{
+  font-size: 64px;
+  font-weight: bolder;
+  
+}
+.btns{
+  padding-top: 20px;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+} 
+.btns button {
+  border-radius: 8px;
+  width: fit-content;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+ font-size: 18px;
+ padding: 15px;
+ color: #fff;
+  font-weight: 500;
+  font-family: 'poppins', sans-serif;
+  background-color: #1b1b1b;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btns button:active {
+  background-color: #fff;
+  border:1px solid #1b1b1b;
+  color: #1b1b1b;
+}.pass{
+  padding: 20px 0;
+}
+.pass button {
+  border-radius: 8px;
+  width: fit-content;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+ font-size: 18px;
+ padding: 15px;
+ color: #fff;
+  font-weight: 500;
+  font-family: 'poppins', sans-serif;
+  background-color: #1b1b1b;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.pass button:active {
+  background-color: #fff;
+  border:1px solid #1b1b1b;
+  color: #1b1b1b;
+}
+.title p{
+  padding: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.notes{
+  padding: 5em 0;
+}
+.notes ul li{
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
